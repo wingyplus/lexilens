@@ -1,0 +1,11 @@
+[Lens]
+DBusName=unity.singlet.lens.lexilens
+DBusPath=/unity/singlet/lens/lexilens
+Name=Lexilens
+Icon=/usr/share/unity/lenses/lexilens/unity-lens-lexilens.svg
+Description=Lexilens Lens
+SearchHint=Search Lexilens
+#Shortcut=c
+
+[Desktop Entry]
+X-Ubuntu-Gettext-Domain=lexilens
