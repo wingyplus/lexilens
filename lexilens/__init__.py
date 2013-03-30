@@ -47,8 +47,8 @@ class LexilensLens(SingleScopeLens):
 
     def search(self, search, results):
         for meaning in self.lookup(search):
-            results.append('https://wiki.ubuntu.com/Unity/Lenses/Singlet',
-                         '',
+            results.append('',
+                         '/usr/share/unity/lenses/lexilens/unity-lens-lexilens.png',
                          self.meaning_category,
                          "text/html",
                          meaning[0],

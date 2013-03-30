@@ -68,6 +68,7 @@ DistUtilsExtra.auto.setup(
         ('share/unity/lenses/lexilens', ['lexilens.lens']),
         ('share/dbus-1/services', ['unity-lens-lexilens.service']),
         ('share/unity/lenses/lexilens', ['unity-lens-lexilens.svg']),
+        ('share/unity/lenses/lexilens', ['unity-lens-lexilens.png']),
         ('bin', ['bin/lexilens']),
         ('share/unity/lenses/lexilens', ['lexite.db']),
     ],
