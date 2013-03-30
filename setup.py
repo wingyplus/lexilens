@@ -69,6 +69,7 @@ DistUtilsExtra.auto.setup(
         ('share/dbus-1/services', ['unity-lens-lexilens.service']),
         ('share/unity/lenses/lexilens', ['unity-lens-lexilens.svg']),
         ('bin', ['bin/lexilens']),
+        ('share/unity/lenses/lexilens', ['lexite.db']),
     ],
     cmdclass={"build":  build_extra.build_extra, 'install': InstallAndUpdateDataDirectory}
     )

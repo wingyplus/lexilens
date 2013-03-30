@@ -16,9 +16,9 @@ __all__ = [
 
 # Where your project will look for your data (for instance, images and ui
 # files). By default, this is ../data, relative your trunk layout
-__lexilens_data_directory__ = '../data/'
+__lexilens_data_directory__ = '/usr/share/lexilens/'
 __license__ = ''
-__version__ = 'VERSION'
+__version__ = '0.1'
 
 import os
 
